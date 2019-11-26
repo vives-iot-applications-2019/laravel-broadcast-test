@@ -31,6 +31,6 @@ class Hello
      */
     public function broadcastOn()
     {
-        return new PrivateChannel('channel-name');
+        return new Channel('sayHello');
     }
 }
