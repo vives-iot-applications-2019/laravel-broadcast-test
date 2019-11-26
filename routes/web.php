@@ -12,5 +12,6 @@
 */
 
 Route::get('/', function () {
+    event(new \App\Events\Hello());
     return view('welcome');
 });
